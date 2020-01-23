@@ -327,7 +327,7 @@ public:
               bool ShowDriverTimeCompilation = false,
               std::unique_ptr<UnifiedStatsReporter> Stats = nullptr,
               bool OnlyOneDependencyFile = false,
-              bool EnableFineGrainedDependencies = false,
+              bool EnableFineGrainedDependencies = true,
               bool VerifyFineGrainedDependencyGraphAfterEveryImport = false,
               bool EmitFineGrainedDependencyDotFileAfterEveryImport = false,
               bool FineGrainedDependenciesIncludeIntrafileOnes = false,
